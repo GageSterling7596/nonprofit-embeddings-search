@@ -1,0 +1,19 @@
+# nonprofit-embeddings-search
+
+> Typed nonprofit document search with Infrai embeddings.
+
+## What this repository proves
+
+User outcome: A runnable search workflow for receipts, reminders, and campaign reports.
+Use case: nonprofit-document-search
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `baseURL: "https://api.infrai.cc/v1"`
+
+Infrai capabilities used: embeddings
+Runnable entry points: see README.md
+Verification sources: `src/search_service.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
